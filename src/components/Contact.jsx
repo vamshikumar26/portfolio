@@ -20,27 +20,23 @@ const Contact = () => {
           <h1 className='text-center text-lg text-slate-400'>or</h1>
           <div className=' flex flex-row flex-wrap mx-auto items-center justify-center gap-5'>
             <div className='dmdiv  text-red-500'>
-              <a href="mailto:sriramreddy9@gmail.com" target='_blank' className='dm'>
+              <a href="mailto:pottavarthivamshikumar@gmail.com" target='_blank' className='dm'>
                 <SiGmail />
               </a>
             </div>
             <div className='dmdiv  text-green-600'>
-              <a target='_blank' className='dm' href="https://wa.me/+916303471489?text=Hey%20Brother!!!%20%20i%20have%20gone%20through%20your%20profolio ">
+              <a target='_blank' className='dm' href="https://wa.me/+917416638648?text=Hey%20Brother!!!%20%20i%20have%20gone%20through%20your%20profolio ">
                 <BsWhatsapp />
               </a>
             </div>
             <div className='dmdiv  text-blue-500'>
-              <a href="https://twitter.com/messages/" target='_blank' className='dm'>
+              <a href="https://x.com/vamshi_0904" target='_blank' className='dm'>
                 <FaSquareTwitter />
               </a>
             </div>
-            <div className='dmdiv  instagram'>
-              <a href="https://ig.me/m/sriramreddy" target='_blank' className='dm sm'>
-                <GrInstagram />
-              </a>
-            </div>
+            
             <div className='dmdiv  text-blue-500'>
-              <a href="" className='dm'>
+              <a href="https://www.linkedin.com/in/vamshikumarp" className='dm'>
                 <FaLinkedin />
               </a>
             </div>
@@ -64,29 +60,25 @@ const Contact = () => {
           <div className='flex text-center  text-2xl  mt-5 items-center justify-center gap-10'>
 
             <div className='hover:text-green-400 trasition duration-500 '>
-              <a target='_blank' href="https://wa.me/+916303471489?text=Hey%20Brother!!!%20%20i%20have%20gone%20through%20your%20profolio ">
+              <a target='_blank' href="https://wa.me/+917416638648?text=Hey%20Brother!!!%20%20i%20have%20gone%20through%20your%20profolio ">
                 <BsWhatsapp />
               </a>
             </div>
             <div className='hover:text-green-400 trasition duration-500  '>
-              <a href="https://twitter.com/messages/" target='_blank' >
+              <a href="https://x.com/vamshi_0904" target='_blank'>
                 <FaSquareTwitter />
               </a>
             </div>
             <div className='hover:text-green-400 trasition duration-500  '>
-              <a href="" >
+              <a href="https://www.linkedin.com/in/vamshikumarp" className='dm'>
                 <FaLinkedin />
               </a>
             </div>
-            <div className='hover:text-green-400 trasition duration-500  '>
-              <a href="https://ig.me/m/sriramreddy" target='_blank' >
-                <GrInstagram />
-              </a>
-            </div>
+            
 
           </div>
           <div>
-            <h1 className='text-center text-sm  text-slate-400 mt-10 mb-10'>© 2024 Sriram Reddy. All rights reserved.</h1>
+            <h1 className='text-center text-sm  text-slate-400 mt-10 mb-10'>© 2024 Vamshi Kumar. All rights reserved.</h1>
           </div>
         </div>
       </div>

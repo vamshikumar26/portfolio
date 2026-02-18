@@ -18,12 +18,12 @@ function About() {
       <div className='w-full bg-green-00  pb-10 z-10'>
         <div className='w-full flex gap-4 flex-col md:text-left text-center'>
           <h1 className=' md:text-4xl text-3xl font-bold'>Hi<span className='text-green-500'>,</span> I am</h1>
-          <motion.h1 className='md:text-6xl text-6xl relative font-[900]'>Sriram Reddy <motion.span initial={{width:"40%"}} animate={{width:0}} transition={{duration:0.5,ease:"backIn"}} viewport={{once : false}} className='absolute left-0 h-[106%] bg-green-400'></motion.span></motion.h1>
+          <motion.h1 className='md:text-6xl text-6xl relative font-[900]'>Vamshi Kumar <motion.span initial={{width:"40%"}} animate={{width:0}} transition={{duration:0.5,ease:"backIn"}} viewport={{once : false}} className='absolute left-0 h-[106%] bg-green-400'></motion.span></motion.h1>
           <div className='flex lg:flex-row  flex-col w-full '>
             <h2 className=' md:text-2xl text-xl w-72 md:mx-0 mx-auto md:w-[27rem]  font-bold'> I am a &nbsp;
             <span className='text-green-500 w-full '>
 
-            <Typewriter words={['AI/ML enthusiast','Problem Solver',"Full Stack Developer"]} loop={true}/>
+            <Typewriter words={["Data Engineer",'AI/ML enthusiast','Problem Solver']} loop={true}/>
             </span>
               <Cursor/>
               {/* <Cursor cursorStyle='}' cursorBlinking={false}/>  */}
@@ -33,7 +33,7 @@ function About() {
         </div>
         <div className='lg:w-2/3 text-lg my-5 text-ellipsis   justify-center w-full md:text-left text-center'>
           <h4 className='text-gray-300  text-xl/8 max-w-[700px] '>
-          A highly motivated <span>Full-Stack Developer</span> and <span>AI/ML</span>  enthusiast with hands-on experience building real-time and scalable web applications using the <span>MERN</span>  stack. Proficient in developing responsive user interfaces, secure backend APIs, and real-time communication using Socket.IO. I have experience working with <span>LLMs</span>, <span>RAG</span> pipelines,<span>OpenAI</span>  APIs, FAISS <span>vectorDBs</span>, and deploying production-ready apps on Render and Vercel. Passionate about integrating AI into full-stack apps to solve real-world problems through technology.
+          Highly motivated <span>Data Engineer</span> skilled in building scalable data pipelines, <span>ETL/ELT</span> workflows, and cloud-based data solutions on <span>Microsoft Azure</span>. Experienced in <span>Azure Data Factory</span>, <span>Databricks</span>, and <span>Synapse Analytics</span> using <span>Medallion Architecture</span>. Proficient in <span>Python</span>, <span>SQL</span>, <span>RAG</span>,OpenAI <span> APIs, FAISS </span>,<span>vectorDBs</span> and big-data technologies with strong analytical and problem-solving skills. Demonstrated ability to deliver secure, automated, and optimized data systems.
           </h4>
         </div>
         <div className='mt-16 flex md:block items-center justify-center'>

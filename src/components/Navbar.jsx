@@ -33,8 +33,8 @@ const Navbar = () => {
             <a className='p-2 text-white text-xl  transition hover:text-green-500 duration-400 ease-in' href="#education"> Education</a>
         </div>
         <div className=' gap-2 hidden lg:block'>
-          <a className='p-3 border-2 border-green-500 bg-green-500 text-black font-bold rounded-l-2xl transition duration-500 ease-in greenshadow ' target='_blank' href="https://www.linkedin.com/in/sriram-reddy-34905a212/">LinkedIn</a>
-          <a className='p-3 border-2 border-green-500 font-bold bg-transparent rounded-r-2xl transition duration-500 ease-in greenshadow ' target='_blank' href="https://github.com/ksriramreddy">GitHub</a>
+          <a className='p-3 border-2 border-green-500 bg-green-500 text-black font-bold rounded-l-2xl transition duration-500 ease-in greenshadow ' target='_blank' href=" https://www.linkedin.com/in/vamshikumarp">LinkedIn</a>
+          <a className='p-3 border-2 border-green-500 font-bold bg-transparent rounded-r-2xl transition duration-500 ease-in greenshadow ' target='_blank' href="https://github.com/vamshikumar26 ">GitHub</a>
         </div>
         <div className='block lg:hidden'>
           <button  onClick={openSidebar} className='text-black text-2xl px-2 py-2 rounded-2xl z-40 bg-green-500 hover:bg-green-600  transition duration-500 ease-in md:hidden'>
