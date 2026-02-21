@@ -1,12 +1,12 @@
 
-import insta1 from '../projectimages/insta/insta1.jpeg'
-import webchat1 from '../projectimages/webchat/webchat1.png'
-import ml1 from '../projectimages/machinelearning/ml1.png'
-import portfolio1 from '../projectimages/portfolio/portfolio1.png'
-import pdfreader from '../projectimages/pdfreader/pdf-reader-arch.png'
-import games1 from '../projectimages/games/games1.png'
-import yt1 from '../projectimages/youtube/yt1.png'
-import discard1 from '../projectimages/discard/discard1.png'
+// import insta1 from '../projectimages/insta/insta1.jpeg'
+// import webchat1 from '../projectimages/webchat/webchat1.png'
+// import ml1 from '../projectimages/machinelearning/ml1.png'
+// import portfolio1 from '../projectimages/portfolio/portfolio1.png'
+ import pdfreader from '../projectimages/pdfreader/pdf-reader-arch.png'
+// import games1 from '../projectimages/games/games1.png'
+// import yt1 from '../projectimages/youtube/yt1.png'
+// import discard1 from '../projectimages/discard/discard1.png'
 export const projects = [
     {
         title: "RAG-Powered PDF Chatbot",
