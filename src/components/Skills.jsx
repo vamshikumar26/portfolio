@@ -47,6 +47,10 @@ const Skills = () => {
                   <span className='text-yellow-300'><IoLogoJavascript /></span>
                   <h4>JavaScript</h4>
                 </div>
+                <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
+                  <span className='text-purple-500 text-2xl  '>✨</span>
+                  <h4>Framer Motion</h4>
+                </div>          
               </div>
               <span className='leftarrow'></span>
             </div>

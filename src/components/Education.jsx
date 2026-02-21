@@ -5,65 +5,66 @@ const Education = () => {
   console.log(data);
   
   return (
-    <div id='education' className='md:overflow-visible overflow-hidden  w-full relative'>
-      <div className='w-full text-center  mb-10 text-4xl text-white title'>
+    <div id='education' className='md:overflow-visible overflow-hidden w-full relative'>
+      <div className='w-full text-center mb-16 text-4xl text-white title'>
         <h1>Education</h1>
       </div>
       <div className='w-full rounded-3xl edu-line relative h-full'>
         
+        {/* Timeline Logos */}
         <div>
-          <img className='clg-logo cmr' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811992/tb7xsgrlc0mm7odwpmwn.png" alt="" />
+          <img className='clg-logo logo-1' src={data[0].image} alt="" />
         </div>  
         <div>
-          <img className='clg-logo gioe' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811984/zwdvvtnf1hzblehsa6kb.jpg" alt="" />
+          <img className='clg-logo logo-2' src={data[1].image} alt="" />
         </div>
         <div>
-          <img className='clg-logo orbit' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811975/hj6bgdegicpvjgucqkum.webp" alt="" />
+          <img className='clg-logo logo-3' src={data[2].image} alt="" />
         </div>
-        <div className=' p-5 border  edu edu-cmr lefttoright boxbg rounded-2xl   flex flex-col gap-2'>
-          <div className='flex gap-2'>
-            <div>
-              <img className='w-20' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811992/tb7xsgrlc0mm7odwpmwn.png" alt="" />
-            </div>
-            <div className='flex flex-col'>
-              <h1 className='text-xl'>{data[0].institution}</h1>
-              <h1 className='text-sm opacity-80'>{data[0].degree}</h1>
-              <h1 className='text-sm opacity-80'>{data[0].field}</h1>
-              <h1 className='text-xs opacity-80'>{data[0].year}</h1>
+
+        {/* Education Card 1 - Left Side */}
+        <div className='edu edu-1 lefttoright rounded-2xl'>
+          <div className='edu-header'>
+            <img className='edu-card-logo' src={data[0].image} alt="" />
+            <div className='edu-header-content'>
+              <h3 className='edu-institution'>{data[0].institution}</h3>
+              <p className='edu-degree'>{data[0].degree}</p>
+              <p className='edu-field'>{data[0].field}</p>
+              <p className='edu-year'>{data[0].year}</p>
             </div>
           </div>
-          <div className='text-sm font-bold text-slate-400'> Grade : {data[0].gpa}</div>
-          <div className='textstyle  '>{data[0].description }</div>
+          <div className='edu-grade'>Grade: <span className='edu-grade-value'>{data[0].gpa}</span></div>
+          <div className='edu-description'>{data[0].description}</div>
         </div>
-        <div className=' p-5  edu-gioe border edu  righttoleft boxbg rounded-2xl m-3 flex flex-col gap-2'>
-          <div className='flex gap-2'>
-            <div>
-              <img className='w-20' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811984/zwdvvtnf1hzblehsa6kb.jpg" alt="" />
-            </div>
-            <div className='flex flex-col'>
-              <h1 className='text-xl'>{data[1].institution}</h1>
-              <h1 className='text-sm opacity-80'>{data[1].degree}</h1>
-              <h1 className='text-sm opacity-80'>{data[1].field}</h1>
-              <h1 className='text-xs opacity-80'>{data[1].year}</h1>
+
+        {/* Education Card 2 - Right Side */}
+        <div className='edu edu-2 righttoleft rounded-2xl'>
+          <div className='edu-header'>
+            <img className='edu-card-logo' src={data[1].image} alt="" />
+            <div className='edu-header-content'>
+              <h3 className='edu-institution'>{data[1].institution}</h3>
+              <p className='edu-degree'>{data[1].degree}</p>
+              <p className='edu-field'>{data[1].field}</p>
+              <p className='edu-year'>{data[1].year}</p>
             </div>
           </div>
-          <div className='text-sm font-bold text-slate-400'> Grade : {data[1].gpa}</div>
-          <div className='textstyle  '>{data[1].description }</div>
+          <div className='edu-grade'>Grade: <span className='edu-grade-value'>{data[1].gpa}</span></div>
+          <div className='edu-description'>{data[1].description}</div>
         </div>
-        <div className=' p-5 border edu-orbit edu lefttoright boxbg rounded-2xl m-3 flex flex-col gap-2'>
-          <div className='flex gap-2'>
-            <div>
-              <img className='w-20' src="https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747811975/hj6bgdegicpvjgucqkum.webp" alt="" />
-            </div>
-            <div className='flex flex-col'>
-              <h1 className='text-xl'>{data[2].institution}</h1>
-              <h1 className='text-sm opacity-80'>{data[2].degree}</h1>
-              <h1 className='text-sm opacity-80'>{data[2].field}</h1>
-              <h1 className='text-xs opacity-80'>{data[2].year}</h1>
+
+        {/* Education Card 3 - Left Side */}
+        <div className='edu edu-3 lefttoright rounded-2xl'>
+          <div className='edu-header'>
+            <img className='edu-card-logo' src={data[2].image} alt="" />
+            <div className='edu-header-content'>
+              <h3 className='edu-institution'>{data[2].institution}</h3>
+              <p className='edu-degree'>{data[2].degree}</p>
+              <p className='edu-field'>{data[2].field}</p>
+              <p className='edu-year'>{data[2].year}</p>
             </div>
           </div>
-          <div className='text-sm font-bold text-slate-400'> Grade : {data[2].gpa}</div>
-          <div className='textstyle'>{data[2].description }</div>
+          <div className='edu-grade'>Grade: <span className='edu-grade-value'>{data[2].gpa}</span></div>
+          <div className='edu-description'>{data[2].description}</div>
         </div>
       </div>
     </div>
