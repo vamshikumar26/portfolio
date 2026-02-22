@@ -1,16 +1,23 @@
-
-// import insta1 from '../projectimages/insta/insta1.jpeg'
-// import webchat1 from '../projectimages/webchat/webchat1.png'
-// import ml1 from '../projectimages/machinelearning/ml1.png'
-// import portfolio1 from '../projectimages/portfolio/portfolio1.png'
- import pdfreader from '../projectimages/pdfreader/pdf-reader-arch.png'
+// import insta1 from '../projectimages/pdfreader/pdf-reader-arch.png'
+// import webchat1 from '../projectimages/pdfreader/pdf-reader-arch.png'
+// import ml1 from '../projectimages/pdfreader/pdf-reader-arch.png'
+// import portfolio1 from '../projectimages/pdfreader/pdf-reader-arch.png'
+import pdfreader from '../projectimages/pdfreader/aibotfrontend.png'
+import portfolio23 from '../projectimages/portfolio/portfolio1.png'
+import tumor from '../projectimages/braintumor/braintumordetection.png'
+import cardiac from '../projectimages/arrhythmia/ecg.png'
+import df from '../projectimages/datafactory/clouddf.png'
+import db from '../projectimages/cloudmigration/clouddbflow.png'
+import todo from '../projectimages/taskmanager/todofrontend.png'
+import brs from '../projectimages/bookreview/brsbackend.png'
+import CV from '../projectimages/ingredientdetection/obdetectionfrontend.png'
 // import games1 from '../projectimages/games/games1.png'
 // import yt1 from '../projectimages/youtube/yt1.png'
 // import discard1 from '../projectimages/discard/discard1.png'
 export const projects = [
     {
         title: "RAG-Powered PDF Chatbot",
-        image: "sriramreddyk\src\assets\projectimages\pdf-reader-arch.png",
+        image: pdfreader,
         description: "An AI-powered PDF chatbot that extracts text from documents, converts it into embeddings, and stores it in a FAISS vector database. User queries are transformed into embeddings to retrieve relevant chunks, which are then processed through a RAG pipeline using OpenAI to generate accurate contextual responses.",
         technologies: [
             "Python",
@@ -30,7 +37,7 @@ export const projects = [
     ,
     {
         title: " AI-Based Cardiac Arrhythmia Detection System",
-        image: "https://res.cloudinary.com/dqnmzdsoy/image/upload/v1750445721/jmzgdaplvyv6dsphijqp.png",
+        image: cardiac,
         description: "An AI-based cardiac arrhythmia detection system that preprocesses ECG signals, applies PCA for dimensionality reduction, and uses a hybrid deep learning model (CNN + LSTM) to classify abnormal heart rhythms with softmax probability output.",
         technologies: [
             "Python",
@@ -48,7 +55,7 @@ export const projects = [
     },
     {
         title: "MRI Brain Tumor Classifier",
-        image: "https://res.cloudinary.com/dqnmzdsoy/image/upload/v1762267841/mymzegcrtrym2yfhnpp3.png",
+        image: tumor,
         description: "A deep learning-based brain tumor detection system that preprocesses MRI images, applies data augmentation, and leverages a pretrained Xception model with global average pooling, dropout, and dense layers to classify tumor types with softmax probability output.",
         technologies: [
             "Python",
@@ -66,7 +73,7 @@ export const projects = [
     },
     {
         title: "ADF Cloud Migration Pipeline",
-        image: "https://res.cloudinary.com/dqnmzdsoy/image/upload/v1747813896/rk1vd8ma2ivppcqjc62x.png ",
+        image: df,
         description: "Designed an end-to-end Medallion Architecture data pipeline using Azure Databricks and Delta Lake to process raw data into Bronze, Silver, and Gold layers, enabling scalable transformations and delivering curated datasets to Azure Synapse Analytics for reporting.",
         technologies: [
             "Azure Databricks",
@@ -82,7 +89,7 @@ export const projects = [
     },
     {
         title: "Azure Medallion Data Pipeline",
-        image: insta1,
+        image: db,
         description: "Developed an end-to-end ETL pipeline using Azure Data Factory with Self-Hosted Integration Runtime to securely migrate on-premises data to Azure Data Lake Storage, perform transformations using Data Flows, and load curated data into Azure Synapse Analytics for reporting.",
         technologies: [
             "Azure Data Factory",
@@ -97,7 +104,7 @@ export const projects = [
     },
     {
         title: "Task Manager API (FastAPI)",
-        image: webchat1,
+        image: todo,
         description: "Developed a user-based task management REST API using FastAPI and MongoDB that supports full CRUD operations, task filtering, and validation, enabling users to securely create, update, and manage their personal tasks.",
         technologies: [
             "FastAPI",
@@ -113,8 +120,25 @@ export const projects = [
         demo: 0
     },
     {
+        title: "Ingredient Detection",
+        image: CV,
+        description: "Designed a Book Review Management API using FastAPI that allows users to add books, write reviews, update ratings, and perform CRUD operations, with structured validation and efficient database interactions.",
+        technologies: [
+            "FastAPI",
+            "MongoDB",
+            "Python",
+            "REST API",
+            "CRUD Operations",
+            "Database Design",
+            "Pydantic",
+            "Backend Development"
+        ],
+        code: "https://github.com/vamshikumar26/Book-Review-System.git",
+        demo: 0
+    },
+    {
         title: "Book Review Management System",
-        image: ml1,
+        image: brs,
         description: "Designed a Book Review Management API using FastAPI that allows users to add books, write reviews, update ratings, and perform CRUD operations, with structured validation and efficient database interactions.",
         technologies: [
             "FastAPI",
@@ -131,7 +155,7 @@ export const projects = [
     },
     {
         title: "Portfolio",
-        image: portfolio1,
+        image: portfolio23,
         description: "A personal portfolio website showcasing projects, skills, and contact information.",
         technologies: ["React", "HTML", "CSS", "JavaScript"],
         code: "",

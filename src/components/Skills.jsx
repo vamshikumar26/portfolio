@@ -12,6 +12,8 @@ import { TbApi, TbBrandSocketIo, TbHexagonLetterCFilled } from 'react-icons/tb';
 import { motion } from 'framer-motion';
 import { VscVscode } from 'react-icons/vsc';
 import { frameMotion } from "../utils/frameMotion"
+// import { TbBrandFramerMotion } from "react-icons/tb";
+
 // import { RiClaudeFill } from 'react-icons/ri';
 
 
@@ -28,7 +30,7 @@ const Skills = () => {
           <motion.div variants={frameMotion(.3,100,100,0.3)} initial="hidden" whileInView="show" viewport={{ margin: "30px", once: false }}  id='tilt' className='flex tilt    md:mt-0   flex-wrap max-w-96 border-1  flex-col     '>
             <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect p-5'>
               <div className='text-center text-3xl font-bold'>
-                <h1 >Frontend</h1>
+                <h1 >Full Stack</h1>
               </div>
               <div className='flex flex-wrap gap-2 items-center justify-center'>
                 <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
@@ -47,30 +49,14 @@ const Skills = () => {
                   <span className='text-yellow-300'><IoLogoJavascript /></span>
                   <h4>JavaScript</h4>
                 </div>
-                <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
-                  <span className='text-purple-500 text-2xl  '>✨</span>
+                <div className='flex flex-row min-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
+                  <span className='text-blue-600 text-2xl'>🎬</span>
                   <h4>Framer Motion</h4>
-                </div>          
-              </div>
-              <span className='leftarrow'></span>
-            </div>
-          </motion.div>
-          
-          <motion.div variants={frameMotion(.4,100,-100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "30px", once:false}}   className='flex    md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5'>
-            <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect  p-5'>
-              <div className='text-center text-3xl font-bold'>
-                <h1 >Backend</h1>
-              </div>
-              <div className='flex flex-wrap gap-2 items-center justify-center'>
+                </div>
                 <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
                   <span className='text-green-500  '><FaNodeJs /></span>
                   <h4>FastAPI</h4>
                 </div>
-                <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
-                  <span className='text-blue-500 '><SiExpress /></span>
-                  <h4>MongoDB</h4>
-                </div>
-                
                 <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
                   <span className='text-green-500'><SiMongodb /></span>
                   <h4 className=' '>MongoDB</h4>
@@ -90,15 +76,13 @@ const Skills = () => {
                 <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
                   <span className='text-red-600  '><SiFirebase /></span>
                   <h4 className=' '>Firebase</h4>
-                </div>
-                
+                </div>          
               </div>
-
-              <span className='rightarrow'></span>
+              <span className='leftarrow'></span>
             </div>
           </motion.div>
-          <motion.div variants={frameMotion(.5,-100,100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "100px", once:false}}  className='flex   md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5   '>
-            <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect p-5'>
+          <motion.div variants={frameMotion(.4,100,-100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "30px", once:false}}   className='flex    md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5'>
+            <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect  p-5'>
               <div className='text-center text-3xl font-bold'>
                 <h1 >Programming & Tools</h1>
               </div>
@@ -138,16 +122,12 @@ const Skills = () => {
                   <span className='text-violet-600'><SiCanva /></span>
                   <h4 className=' '>Canva</h4>
                 </div>
-                {/* <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  '>
-                  <span className='text-red-500'><PiMicrosoftPowerpointLogoFill /></span>
-                  <h4 className=' '>PPT</h4>
-                </div> */}
               </div>
+              <span className='rightarrow'></span>
             </div>
-            <span className='leftarrow'></span>
           </motion.div>
           
-          <motion.div variants={frameMotion(.6,-100,-100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "100px", once:false}}  className='flex   md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5     '>
+          <motion.div variants={frameMotion(.5,-100,100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "100px", once:false}}  className='flex   md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5     '>
             <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect p-5'>
               <div className='text-center text-3xl font-bold '>
                 <h1 >AI & ML</h1>
@@ -200,13 +180,13 @@ const Skills = () => {
               <span className='rightarrow'></span>
             </div>
           </motion.div>
-          <motion.div variants={frameMotion(.7,100,100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "100px", once:false}}  className='flex   md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5     '>
+          <motion.div variants={frameMotion(.6,100,100,0.3)} initial="hidden" whileInView="show" viewport={{margin : "100px", once:false}}  className='flex   md:mt-0  flex-wrap max-w-96 border-1  flex-col gap-5     '>
   <div className='boxbg rounded-xl flex flex-col gap-4 hovereffect p-5'>
     <div className='text-center text-3xl font-bold '>
       <h1 >Cloud & Data</h1>
     </div>
     <div className='flex flex-wrap gap-2 items-center justify-center'>
-      <div className='flex flex-row max-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  px-3 py-2'>
+      <div className='flex flex-row min-w-fit items-center justify-between border rounded-lg  border-zinc-400 bounce  px-3 py-2'>
         <span className='text-blue-600 text-lg mr-2'>☁️</span>
         <h4 className='text-sm'>Azure Data Factory</h4>
       </div>
