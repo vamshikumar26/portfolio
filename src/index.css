@@ -646,12 +646,31 @@ background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75
   }
   
   .input{
-    width: 95%;
-    height: 43px;
+    width: 100%;
+    height: 55px;
     border-radius: 10px;
     background-color: transparent;
-    padding: 10px;
-border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 15px;
+    border: 1.5px solid rgba(0, 255, 119, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+
+  .input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .input:focus{
+    outline: none;
+    border-color: rgba(0, 255, 119, 0.8);
+    box-shadow: 0 0 15px rgba(0, 255, 119, 0.3);
+  }
+
+  .input.message{
+    resize: none;
+    height: 160px;
+    padding: 15px;
   }
   .inputdiv{
     /* From https://css.glass */
@@ -670,7 +689,7 @@ backdrop-filter: blur(7.9px);
 }
 
 .background{
-  background-image: url("https://res.cloudinary.com/dqnmzdsoy/image/upload/v1750446491/lelh6pg5r2clf56tawhz.png");
+  background-image: url("C:\Users\admin\Desktop\projects\sriramreddyk\src\assets\profilepics\Gemini_Generated_Image_gv67wagv67wagv67.png");
   background-repeat: no-repeat;
   background-size:contain;
 
